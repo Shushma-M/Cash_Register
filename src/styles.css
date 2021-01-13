@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #ff8c00;
+  --sec-color: #ffd17a;
+}
+body {
+  background-color: var(--sec-color);
+}
+h1 {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  font-family: "Black Ops One", cursive;
+}
+input {
+  border: none;
+  height: 2rem;
+}
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+button:hover {
+  color: var(--primary-color);
+}
+.result-board {
+  border: solid;
+  margin-right: 35%;
+  margin-left: 35%;
+  font-weight: bolder;
+}
+.result {
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 4rem;
+}
+.changeList {
+  font-weight: bolder;
+}
+img {
+  margin: 1rem 1rem 0rem 0rem;
+}
