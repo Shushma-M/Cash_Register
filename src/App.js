@@ -119,7 +119,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Cash Registry</h1>
+      <h1>Cash Register</h1>
 
       <label> Bill Amount: </label>
       <input
